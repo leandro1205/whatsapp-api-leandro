@@ -1,2 +1,2 @@
-web: node whatsapp-api/index.js
+web: npm start
 Corrige caminho do Procfile
