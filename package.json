@@ -1,20 +1,19 @@
 {
   "name": "whatsapp-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "whatsapp-api/index.js",
   "scripts": {
-  "start": "node whatsapp-api/index.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
-}
-
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+    "start": "node whatsapp-api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "express": "^5.1.0",
     "node-fetch": "^2.7.0",
     "qr-image": "^3.2.0",
-    "whatsapp-web.js": "^1.31.0"
+    "whatsapp-web.js": "^1.31.0",
+    "puppeteer": "^22.7.1"
   }
 }
